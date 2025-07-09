@@ -1,0 +1,75 @@
+baseurl = "http://heartoken.com"
+title = "Heartoken"
+theme = "hugo-coder"
+languagecode = "fr"
+defaultcontentlanguage = "fr"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+    
+[pagination]
+pagerSize = 20
+
+[services]
+# [services.disqus]
+# shortname = "yourdiscussshortname"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Heartoken"
+  info = "Notre mission: mesurer ce qui fait battre le coeur de vos clients."
+  description = "Un système de mesure de la satisfaction de vos clients"
+  keywords = "borne,satisfaction,avis,client"
+  avatarurl = "img/heartoken_base.png"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/img/favicon.svg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  # since = 2025
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+# [[params.social]]
+#   name = "Github"
+#   icon = "fa-brands fa-github fa-2x"
+#   weight = 1
+#   url = "https://github.com/johndoe/"
+# [[params.social]]
+#   name = "Gitlab"
+#   icon = "fa-brands fa-gitlab fa-2x"
+#   weight = 2
+#   url = "https://gitlab.com/johndoe/"
+# [[params.social]]
+#   name = "Twitter"
+#   icon = "fa-brands fa-x-twitter fa-2x"
+#   weight = 3
+#   url = "https://twitter.com/johndoe/"
+
+# Menu links
+# [[menu.main]]
+#   name = "Blog"
+#   weight = 1
+#   url  = "posts/"
+# [[menu.main]]
+#   name = "About"
+#   weight = 2
+#   url = "about/"
