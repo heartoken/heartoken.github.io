@@ -21,7 +21,7 @@ style = "github-dark"
 [params]
   author = "Heartoken"
   info = "Notre mission: mesurer ce qui fait battre le coeur de vos clients."
-  description = "Un système de mesure de la satisfaction de vos clients"
+  description = "Un système palpable de mesure de la satisfaction de vos clients"
   keywords = "borne,satisfaction,avis,client"
   avatarurl = "img/heartoken_base.png"
   #gravatar = "john.doe@example.com"
